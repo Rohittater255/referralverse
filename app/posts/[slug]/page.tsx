@@ -7,25 +7,6 @@ import PostActions from '../../components/PostActions';
 
 type Props = { params: { slug: string } };
 
-// export async function generateMetadata({ params }: Props) {
-//   const post = posts.find((p) => p.slug === params.slug);
-//   if (!post) return { title: 'Not found' };
-//   return {
-//     title: `${post.title} — ReferralVerse`,
-//     description: post.summary,
-//     openGraph: {
-//       title: post.title,
-//       description: post.summary,
-//       images: [post.brand.logoUrl],
-//     },
-//     alternates: { canonical: `https://yourdomain.com/${post.slug}` },
-//   };
-// }
-
-export function generateStaticParams() {
-  return posts.map((p) => ({ slug: p.slug }));
-}
-
 export default function PostPage({ params }: Props) {
   const post: Post | undefined = posts.find((p) => p.slug === params.slug);
   if (!post) return notFound();
@@ -39,14 +20,14 @@ export default function PostPage({ params }: Props) {
       "@type": "HowToStep",
       "name": `Step ${i + 1}`,
       "text": s,
-      "url": `https://yourdomain.com/${post.slug}#step-${i + 1}`
+      "url": `https://referralverse.com/${post.slug}#step-${i + 1}`
     })),
   };
 
   const offerJson = {
     "@context": "https://schema.org",
     "@type": "Offer",
-    "url": `https://yourdomain.com/${post.slug}`,
+    "url": `https://referralverse.com/${post.slug}`,
     "price": post.offer.price,
     "priceCurrency": post.offer.currency,
     "availability": "https://schema.org/InStock"
@@ -99,13 +80,13 @@ export default function PostPage({ params }: Props) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://yourdomain.com"
+        "item": "https://referralverse.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": post.category,
-        "item": `https://yourdomain.com/category/${post.category.toLowerCase()}`
+        "item": `https://referralverse.com/category/${post.category.toLowerCase()}`
       },
       {
         "@type": "ListItem",

@@ -11,156 +11,101 @@ export const posts: Post[] = [
       logoUrl: 'https://picsum.photos/seed/drinkprime/100/100'
     },
     referralCode: 'ZIHCQMNY',
-    referralLink: 'https://drinkprime.in/get-started',
+    referralLink: 'https://drinkprime.in/lp46?referral_code=ZIHCQMNY',
     signupBonus: '₹100 Off',
     referralBonus: '7 Days Free Trial',
-    validity: 'Valid until Dec 31, 2024',
+    validity: 'Valid until Dec 31, 2025',
     steps: [
-      'Click on the "Claim Now" button or visit the Drinkprime website.',
+      'Click on the "Claim Now" button to download Drinkprime app.',
       'Enter your details to sign up for a new account.',
       'Apply the referral code ZIHCQMNY at checkout.',
-      'Enjoy your discount and free trial!'
+      'You will get 7 days of free trial and ₹100 off on your subscription.'
     ],
     ctaText: 'Claim Now',
     offer: {
       price: 100,
       currency: 'INR'
     },
-    postedOn: 'Oct 10, 2024'
+    postedOn: 'Oct 10, 2025'
   },
   {
-    slug: 'swiggy-one-coupon',
-    title: 'Swiggy One Coupon',
-    category: Category.Food,
-    summary: 'Enjoy unlimited free deliveries and up to 30% extra discounts on restaurants with Swiggy One.',
+    slug: 'livpure-smart-referral-code',
+    title: 'Livpure Smart Referral Code',
+    category: Category.Health,
+    summary: 'Livpure Smart, a pay-as-you-drink water service, provides pure drinking water using 7-stage purification @ Rs 0.99/liter. Livpure Smart has various subscription plans suiting different needs.',
     brand: {
-      name: 'Swiggy',
+      name: 'Livpure Smart',
       logoUrl: 'https://picsum.photos/seed/swiggy/100/100'
     },
-    referralCode: 'WELCOME50',
-    referralLink: 'https://swiggy.com/one',
+    referralCode: 'J0YEN7',
+    referralLink: 'https://play.google.com/store/apps/details?id=com.livpure.safedrink',
     signupBonus: '50% off first 3 months',
-    referralBonus: 'Extra ₹50 Swiggy Money',
+    referralBonus: '₹500 Amazon Voucher',
     validity: 'Limited time offer',
     steps: [
-      'Open the Swiggy App or Website.',
-      'Navigate to the Swiggy One section.',
-      'Choose your plan and apply coupon WELCOME50.',
-      'Complete the payment and start saving!'
+      'Click on the "Claim Now" button to download Livpure Smart app.',
+      'Now open the app and sign up for a new account',
+      'Choose your plan and apply coupon J0YEN7.',
+      'Complete the payment and you will get  ₹100 off on your subscription.'
     ],
-    ctaText: 'Get Swiggy One',
+    ctaText: 'Get Livpure Subscription',
     offer: {
-      price: 149,
+      price: 100,
       currency: 'INR'
     },
-    postedOn: 'Oct 09, 2024'
+    postedOn: 'Oct 09, 2025'
   },
   {
-    slug: 'zerodha-account-opening',
-    title: 'Zerodha Account Opening Offer',
-    category: Category.Finance,
-    summary: 'Open a free Demat and Trading account with Zerodha, India\'s largest stock broker.',
+    slug: 'cultfit-referral-code',
+    title: 'cultfit referral code',
+    category: Category.Health,
+    summary: 'Sharing a Cult Fit referral code is a smart way to unlock exclusive discounts while promoting a healthier lifestyle. When a friend signs up using your code, both of you benefit—whether it’s discounted memberships, free sessions, or access to premium fitness content. It’s a win-win that turns your fitness journey into a shared, rewarding experience.',
     brand: {
-      name: 'Zerodha',
+      name: 'CultFit',
       logoUrl: 'https://picsum.photos/seed/zerodha/100/100'
     },
-    referralCode: 'AB1234',
-    referralLink: 'https://zerodha.com/open-account',
-    signupBonus: 'Free Account Opening',
-    referralBonus: '300 Reward Points',
+    referralCode: 'IUMEQHMT',
+    referralLink: 'https://www.cult.fit/referral/invite?referralCode=IUMEQHMT',
+    signupBonus: 'Extra 15 days membership',
+    referralBonus: 'Extra 15 days membership',
     validity: 'Ongoing Offer',
     steps: [
-      'Visit the Zerodha account opening page using our link.',
+      'Visit the Cultfit app using our link.',
       'Enter your mobile number and verify with OTP.',
-      'Complete the KYC process with your PAN and Aadhaar.',
-      'Your account will be activated within 24 hours.'
+      'Choose your plan and apply coupon IUMEQHMT.',
+      'Complete the payment and you will get extra 15 days membership.'
     ],
-    ctaText: 'Open Free Account',
+    ctaText: 'Get Extra 15 days membership',
     offer: {
       price: 0,
       currency: 'INR'
     },
-    postedOn: 'Oct 08, 2024'
+    postedOn: 'Oct 08, 2025'
   },
   {
-    slug: 'myntra-first-order-coupon',
-    title: 'Myntra First Order Coupon',
-    category: Category.Shopping,
-    summary: 'Get Flat ₹400 off on your first order above ₹2499 on Myntra. Applicable on a wide range of products.',
+    slug: 'tata-neu-credit-card-offer',
+    title: 'Tata Neu Credit Card Offer',
+    category: Category.Finance,
+    summary: 'Enter the world of rewards and savings with the Tata Neu HDFC Bank Credit Card  – powered by RuPay/Visa. Unlock savings of up to 10% and exclusive offers  across fashion, groceries, electronics, medicines, flights and much more with  NeuCard. Travel in style with complementary airport lounge access plus  exclusive offers on hotel stay and dining! Apply now and enjoy unmatched privileges.',
     brand: {
-      name: 'Myntra',
+      name: 'Tata Neu',
       logoUrl: 'https://picsum.photos/seed/myntra/100/100'
     },
-    referralCode: 'MYNTRA400',
-    referralLink: 'https://www.myntra.com',
-    signupBonus: 'Flat ₹400 Off',
-    referralBonus: 'N/A',
+    referralCode: 'RAHU7325',
+    referralLink: 'https://www.tatadigital.com/finance/creditcard/product-detail?referralCode=RAHU7325&amp;utm_content=RAHU7325',
+    signupBonus: '499 Neu coins on first transaction within 60 days',
+    referralBonus: '₹500',
     validity: 'Valid for new users only',
     steps: [
-      'Go to the Myntra website or app.',
-      'Add products worth ₹2499 or more to your cart.',
-      'Proceed to checkout and apply the coupon code MYNTRA400.',
-      'The discount will be applied instantly.'
+      'Click on the "Get TataNeu Credit Card" button to apply for the Tata Neu Credit Card.',
+      'Apply for the card using referral code RAHU7325.',
+      'Complete the application and once you get approved make transactions worth ₹3000 within 60 days.',
+      'You will get 499 Neu coins.'
     ],
-    ctaText: 'Shop on Myntra',
+    ctaText: 'Get TataNeu Credit Card',
     offer: {
-      price: 400,
+      price: 500,
       currency: 'INR'
     },
-    postedOn: 'Oct 07, 2024'
-  },
-    {
-    slug: 'makemytrip-flight-offer',
-    title: 'MakeMyTrip Flight Offer',
-    category: Category.Travel,
-    summary: 'Get up to ₹1200 instant discount on domestic flight bookings. Plan your travel now!',
-    brand: {
-      name: 'MakeMyTrip',
-      logoUrl: 'https://picsum.photos/seed/mmt/100/100'
-    },
-    referralCode: 'MMTFLIGHT',
-    referralLink: 'https://www.makemytrip.com/flights/',
-    signupBonus: 'Up to ₹1200 Off',
-    referralBonus: '₹150 MMT Cash',
-    validity: 'Check T&C on website',
-    steps: [
-      'Visit the MakeMyTrip website or app.',
-      'Search for your desired domestic flights.',
-      'On the checkout page, apply the coupon code MMTFLIGHT.',
-      'Enjoy your instant discount.'
-    ],
-    ctaText: 'Book Flights',
-    offer: {
-      price: 1200,
-      currency: 'INR'
-    },
-    postedOn: 'Oct 06, 2024'
-  },
-  {
-    slug: 'cult-fit-free-trial',
-    title: 'Cult.fit Free Trial Pass',
-    category: Category.Health,
-    summary: 'Explore Cult centers with a free 2-day trial pass. Access gym, group classes, and more.',
-    brand: {
-      name: 'Cult.fit',
-      logoUrl: 'https://picsum.photos/seed/cult/100/100'
-    },
-    referralCode: 'CULTFRIEND',
-    referralLink: 'https://www.cult.fit/get-pass',
-    signupBonus: '2-Day Free Trial',
-    referralBonus: '15 Days Free Extension',
-    validity: 'For new users in select cities',
-    steps: [
-      'Download the Cult.fit app.',
-      'Sign up and verify your mobile number.',
-      'In the "Refer & Earn" section, enter the code CULTFRIEND.',
-      'Your free 2-day pass will be activated.'
-    ],
-    ctaText: 'Get Free Pass',
-    offer: {
-      price: 0,
-      currency: 'INR'
-    },
-    postedOn: 'Oct 05, 2024'
-  }
-];
+    postedOn: 'Oct 07, 2025'
+  }];
